@@ -1,0 +1,189 @@
+/*
+  Author:khyati Modi;
+  theme:food order website Admin;
+  Version:1.0
+  */
+
+  *{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+  .wrapper{
+    
+    padding:1%;
+    width:80%;
+    margin:0 auto;
+  }
+
+  .text-left{
+    text-align: left;
+  }
+
+  .text-center{
+    text-align:center;
+  }
+  
+  .clearfix{
+    float:none;
+    clear:both;
+  }
+
+  .tbl-full{
+    width: 100%;
+  }
+
+  .tbl-30{
+    width: 30%;
+  }
+  table tr th{
+    border-bottom: 1px solid black ;
+    padding:2%;
+    text-align: left;
+  }
+
+  table tr td{
+    padding:2%;
+  
+  }
+.text-size{
+  text-decoration: underline;
+  text-transform: capitalize;
+
+}
+  .btn-primary{
+    background-color: #1e90ff;
+    padding:1%;
+    color:white;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+
+  .btn-primary:hover{
+    background-color: #3742fa;
+  }
+
+  .btn-secondary{
+    background-color: #7bed9f;
+    padding:1%;
+    color:black;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+
+  .btn-secondary:hover{
+    background-color: #2ed573;
+  }
+
+  .btn-danger{
+    background-color: #ff6b81;
+    padding:1%;
+    color:white;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+
+  .btn-danger:hover{
+    background-color: #ff4757;
+  }
+
+  .success{
+    color:#00b894;
+  }
+
+  .error{
+    font-size: large;
+    color:#d63031;
+  }
+   /*css for menu*/
+   .menu{
+    border-bottom:1px solid gray ;
+   }
+   .menu ul{
+    list-style-type:none;
+   }
+
+   .menu ul li{
+    display:inline;
+    padding:1%;
+   }
+
+   .menu ul li a{
+    text-decoration:none;
+    font-weight:bolder ;
+    color:#ff6b81;
+   }
+
+   .menu ul li a:hover{
+    color:#ff4757;
+   }
+/* css for main content*/
+  .menu-content{
+    background-color: #f1f2f6;
+    padding: 3% 0;
+  }
+
+  .col-4{
+    width:16%;
+    background-color: white;
+    margin: 1%;
+    padding:2%;
+    float: left;
+  }
+  /* css for footer*/
+  .footer{
+    background-color: #ff4757;
+    color:white;
+  }
+
+ /*css for login*/
+.login{
+  border:1px solid gray;
+  width:20%;
+  margin:10% auto;
+  padding:2%;
+}
+#bg {
+  background-image: url('../images/menu-pizza.jpg');
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  
+}
+
+.codehim-form{
+  max-width: 400px;
+  min-height: 400px;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 4px 2px 16px rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  margin:  20px auto 0 auto;
+  padding: 25px;
+  color: #414141;
+}
+
+.cm-input{
+  display: block;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%; 
+  margin: 14px auto;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  
+  
+}
+.cm-input:focus{
+  outline: 0;
+  border-color: #f9cb81;
+  
+}
+.cm-input:invalid{
+  border-color: #e41b17;
+  
+}
